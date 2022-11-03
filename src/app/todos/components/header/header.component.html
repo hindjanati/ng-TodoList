@@ -1,0 +1,66 @@
+<!-- 
+
+  <div class="flex mb-5 justify-center">
+    <input type="text" id="exampleFormControlInput1" class=" 
+    form-control
+    text-center
+    block
+    w-96
+    px-3
+    py-1.5
+    text-base
+    font-normal
+    text-gray-700
+    bg-white bg-clip-padding
+    border
+    rounded
+    transition
+    ease-in-out
+    m-0
+    focus:text-gray-700 focus:bg-white focus:border-gray-300 focus:outline-none
+    shadow-2xl"
+    outoFocus [value]="text"
+    (keyup)="changeText($event)"
+    (keyup.enter)="addTodo()"
+    placeholder="What need to be done? ">
+</div> -->
+
+<header class="block">
+  <blockquote class="text-2xl font-semibold italic text-center text-slate-900">
+    Make your
+    <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+      <span class="relative text-white">Todo List</span>
+    </span>
+    easily.
+  </blockquote>
+  <div class="flex justify-center">
+    <input
+    class="
+    form-control
+    block
+    w-full
+    px-3
+    py-1.5
+    mt-9
+    text-center
+    text-base
+    font-normal
+    shadow-2xl
+
+    text-gray-700
+    bg-white bg-clip-padding
+    rounded
+    transition
+    ease-in-out
+    m-0
+    focus:text-gray-700 focus:bg-white focus:border-gray-300 focus:outline-none
+  "
+      placeholder="What needs to be done?"
+      autoFocus
+      [value]="text"
+      (keyup)="changeText($event)"
+      (keyup.enter)="addTodo()"
+    />
+  </div>
+
+</header>

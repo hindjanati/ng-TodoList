@@ -1,0 +1,36 @@
+<footer class="footer h-5 text-center pt-3 pb-3 pr-4 pl-4 flex" [ngClass]="{ hidden: noTodosClass$ | async }">
+  <span class="todo-count">
+    <strong>{{ activeCount$ | async }}</strong>
+    {{ itemsLeftText$ | async }}
+  </span>
+  <ul class="absolute right-0 left-0 m-0 p-0 justify-between">
+    <li class="inline-block ml-3">
+      <a
+        href="/"
+        [ngClass]="{ selected: (filter$ | async) === filterEnum.all }"
+        (click)="changeFilter($event, filterEnum.all)"
+      >
+        All
+      </a>
+    </li>
+    <li class="inline-block ml-3">
+      <a
+        href="/"
+        [ngClass]="{ selected: (filter$ | async) === filterEnum.active }"
+        (click)="changeFilter($event, filterEnum.active)"
+      >
+        Active
+      </a>
+    </li>
+
+    <li class="inline-block ml-3">
+      <a
+        href="/"
+        [ngClass]="{ selected: (filter$ | async) === filterEnum.completed }"
+        (click)="changeFilter($event, filterEnum.completed)"
+      >
+        Completed
+      </a>
+    </li>
+  </ul>
+</footer>
