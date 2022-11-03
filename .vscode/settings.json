@@ -1,0 +1,25 @@
+{
+    "peacock.affectDebuggingStatusBar": false,
+    "peacock.affectEditorGroupBorder": false,
+    "peacock.affectPanelBorder": true,
+    "peacock.affectActivityBar": false,
+    "workbench.colorCustomizations": {
+        "sash.hoverBorder": "#b69ccb",
+        "statusBar.background": "#9e7bb9",
+        "statusBarItem.hoverBackground": "#865aa7",
+        "statusBarItem.remoteBackground": "#9e7bb9",
+        "panel.border": "#b69ccb",
+        "tab.activeBorder": "#b69ccb",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.remoteForeground": "#15202b"
+    },
+    "peacock.color": "#9E7BB9",
+    "peacock.affectSideBarBorder": false,
+    "peacock.affectStatusAndTitleBorders": false,
+    "peacock.affectTabActiveBorder": true,
+    "peacock.keepBadgeColor": false,
+    "peacock.keepForegroundColor": false,
+    "peacock.squigglyBeGone": false,
+    "peacock.surpriseMeFromFavoritesOnly": false,
+    "peacock.surpriseMeOnStartup": true
+}
